@@ -5,20 +5,24 @@ html, body, #root {
     margin: 0;
     display: flex;
     flex-direction: column;
-    min-height: screen;
-  }
+    min-height: 100vh;
+}
 
-  
-  
-  body {
+body {
     background-color: var(--color-alice-blue-500); 
-  }
-  
-  main {
+}
+
+main {
     flex-grow: 1;
     display: flex;
-  }
+    flex-direction: column;
+}
 
+@media (min-width: 768px) {
+    main {
+        flex-direction: row;
+    }
+}
 
 @layer base {
     :root {
