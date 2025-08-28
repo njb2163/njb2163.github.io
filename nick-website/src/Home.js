@@ -6,8 +6,7 @@ import { RiTreasureMapFill } from "react-icons/ri";
 import Research from './Research';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
-const aboutMe = "Hi, I'm Nicholas Bindela, a Software and Machine Learning Engineer passionate about building scalable solutions at the intersection of AI, cloud infrastructure, and product development. I have experience leading engineering teams, designing AWS-based architectures, and deploying machine learning models to production. Currently, I'm a Software Engineer II at Chewy, where I design and implement cloud-based ML pipelines for supply chain optimization. I'm also the Co-founder and Engineering Lead of a Stealth Startup, shaping the product vision and managing a team to deliver a functional MVP. Explore my projects below, and feel free to download my resume to learn more about my journey!"
-
+const aboutMe = "Hi, I’m Nicholas Bindela, a Software and Machine Learning Engineer passionate about building scalable solutions at the intersection of AI, cloud infrastructure, and product development. I have experience leading engineering teams, designing AWS-based architectures, and deploying machine learning models to production. I recently left my role as a Software Engineer II at Chewy to complete the final semester of my Master’s in Computer Science (Machine Learning concentration) at Columbia University, where I am set to graduate in December 2025. In addition to my studies, I am the Co-founder and Engineering Lead of a Stealth Startup, where I work side by side with the founder to shape the product vision and manage a team delivering a functional MVP. Explore my projects below, and feel free to download my resume to learn more about my journey!"
 const projectsData = [
   {
     image: FcAreaChart,
@@ -72,6 +71,16 @@ const projectsData = [
 ];
 
 const experienceData = [
+  {
+    image: "images/columbia-logo.png",
+    title: 'Columbia University',
+    github_link: 'https://www.columbia.edu/',
+    description: 'Master of Science in Computer Science',
+    text_color: 'text-blue-200',
+    tags: ["Machine Learning", "Artificial Intelligence"],
+    start_date: "January 2024",
+    end_date: "Present"
+  },
   {
     image: "images/stealth-startup.png",
     title: 'Stealth Startup',
