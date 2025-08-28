@@ -7,7 +7,8 @@ const Research = ({ inputData, title, showSeeAll }) => {
         "Artificial Intelligence": "bg-green-500",
         "Frontend": "bg-pink-500",
         "Backend": "bg-red-500",
-        "AWS": "bg-yellow-500"
+        "Cloud Infrastructure": "bg-yellow-500",
+        "Product Managment": "bg-gray-500"
     };
 
     const sortedInputData = [...inputData].sort((a, b) => {

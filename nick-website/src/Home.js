@@ -23,7 +23,7 @@ const projectsData = [
     image: FaSpotify,
     title: 'Spotify Popularity Predictor',
     github_link: 'https://github.com/njb2163/Spotify-Popularity-Predictor',
-    description: 'Trained models to predict commercial loan defaults',
+    description: 'Trained models to predict Spotify song popularity based on song metadata',
     text_color: 'text-[#1ED760]',
     tags: ["Machine Learning"],
     start_date: "August 2024",
@@ -73,14 +73,24 @@ const projectsData = [
 
 const experienceData = [
   {
+    image: "images/stealth-startup.png",
+    title: 'Stealth Startup',
+    github_link: 'https://www.linkedin.com/in/nicholasbindela/',
+    description: 'Technical Lead',
+    text_color: 'text-black-500',
+    tags: ["Product Managment", "Backend", "Frontend", "Cloud Infrastructure"],
+    start_date: "January 2025",
+    end_date: "Present"
+  },
+  {
     image: "images/chewy-logo.png",
     title: 'Chewy',
     github_link: 'https://www.chewy.com/',
     description: 'Software Engineer',
     text_color: 'text-blue-500',
-    tags: ["AWS", "Backend"],
+    tags: ["Cloud Infrastructure", "Backend", "Frontend"],
     start_date: "September 2022",
-    end_date: "Present"
+    end_date: "September 2025"
   },
   {
     image: "images/ask2ai-logo.png",
@@ -98,7 +108,7 @@ const experienceData = [
     github_link: 'https://www.fastenterprises.com/',
     description: 'Implementation Consultant',
     text_color: 'text-blue-200',
-    tags: ["Frontend", "Backend"],
+    tags: ["Backend"],
     start_date: "August 2021",
     end_date: "September 2022"
   },
