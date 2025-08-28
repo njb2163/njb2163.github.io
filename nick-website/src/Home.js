@@ -145,7 +145,7 @@ const Home = () => {
         {/* Left Column */}
         <div className="w-full md:w-1/3 p-6 flex flex-col items-center space-y-6 border-b md:border-r border-gray-300">
           <img
-            src="/Nickb.png"
+            src="/Nickb-headshot.png"
             alt="Headshot"
             className="w-3/4 md:w-full max-w-sm h-auto rounded-full shadow-lg border border-gray-300"
           />
